@@ -333,12 +333,15 @@ nav .fa-solid{
         height: 80vh;
     }
     .firstsection > div{
-        width: 70%;
+        width: 40%;
+        font-size: 1.4rem;
         
     }
-    .leftsection{
-        font-size: 1.4rem;  
+    .left{
+        font-size: 1rem;
+        font-weight: 500;
     }
+    
     .rightsection img{
         width: 90%;
         margin: 50px 0;
@@ -376,14 +379,18 @@ nav .fa-solid{
 .secondsection{
         display:flex;
         justify-content: space-around;
-        
+        flex-basis: 100%;
         margin: auto;
-        height: auto;
+        
 }
 
  .row{
     display: block;
     
+ }
+ #about{
+    padding: 0;
+
  }
  .about-col-1 > img{
     width: 40%;
@@ -400,6 +407,7 @@ nav .fa-solid{
  }
 .about-col-2{
     font-size: 14px;
+    margin: -11px;
 }
 .tab-links{
     font-size: 16px;
